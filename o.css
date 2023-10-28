@@ -1,0 +1,119 @@
+ h1{
+        background-color: red;
+        color: rgb(255, 255, 255);
+        border: 5px outset rgb(136, 141, 153);
+        border-radius: 25px;
+        border-left: 5px;
+        border-right: 5px;
+        width: 35%;
+    margin-left: 32%;
+    margin-right: 40%;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 18px 36px rgba(255, 255, 255, 0.22), 0 14px 11px rgba(255, 255, 255, 0.22);
+    }
+    .c-color{
+     color: white;   
+    }
+    
+    *{
+        box-sizing: border-box;
+    }
+    
+    html, body{
+        margin: 5px;
+        padding: 5px;
+    
+    }
+    
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    main{
+        flex: 10 auto;
+    }
+    .nav-bar{
+        position: fixed;
+        top: 5px;
+        left: 0px;
+        width: 100%;
+    }
+    .content {
+        margin-top 50px;
+    }
+    .content>div{
+        padding: 15px;
+    }
+    .nav-bar>a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        display: block;
+        height: 50px;
+        line-height: 50px;
+    }
+    .nav-bar>ul{
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+    
+    }
+    .nav-bar>ul>li>a{
+        background-color: none;
+        color: white;
+    }
+    .nav-bar>ul>li>a:hover{
+        background: #ff0dff;
+        color: #9cff75;
+    
+    }
+    .nav-bar .active{
+        background: #173459;
+        color: f8f9f9;
+    }
+    .nav-bar li{
+        float: left;
+        width: 25%;
+        text-align: center;
+        border-right: 1px solid #333;
+    }
+    .nav-bar li:last-child{
+        border: none;
+    }
+    footer{
+        color: #fff;
+        background: #333;
+        position: relative;
+        font-size: 80%;
+    
+    }
+    .footer-copyright{
+        width: 100%;
+        height: 40px;
+        background: #111;
+        padding: 10px;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+    }
+    .footer-body{
+        margin-bottom: 40px;
+        padding: 30px;
+    
+    }
+    .footer-body> div:first-child{
+        font-size: 150%;
+    }
+    .footer-body ul{
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+    .footer-body li>a {
+        color: white;
+        text-decoration: none;
+        margin-bottom: 7px;
+    }
+</style>
